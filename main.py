@@ -47,4 +47,4 @@ if st.button("Predict Loan"):
     if prediction==1:
         st.write("Loan appproved")
     else:
-        st.write("Sorry")
+        st.write("Sorry loan not approved")
