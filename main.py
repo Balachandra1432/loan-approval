@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 model=pickle.load(open("loan_approval.pkl","rb"))
 
-st.header("Loan Approval Project")
+st.header("SmartLoan AI: Intelligent Loan Approval Prediction System")
 
 col1,col2,col3,col4=st.columns(4)
 with col1:
